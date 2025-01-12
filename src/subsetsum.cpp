@@ -5,7 +5,7 @@
 
 namespace subsetsum {
 
-std::vector<int> mutatingArgsort(std::vector<int>& a) {
+std::vector<long long> mutatingArgsort(std::vector<long long>& a) {
   const int n = static_cast<int>(a.size());
   std::vector<std::pair<int, int>> a_indexed(n);
   std::vector<int> indices(n);
